@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b43d9e9f4a09084439c4f68d4a533db8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 254953
+  packageName: Realistic Meeting Room
+  packageVersion: 1.0
+  assetPath: Assets/Meeting_Room/Prefabs/Table.prefab
+  uploadId: 666957

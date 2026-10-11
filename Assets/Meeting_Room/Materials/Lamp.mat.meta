@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7f9b108edead1e547a43c4f789e7e041
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 254953
+  packageName: Realistic Meeting Room
+  packageVersion: 1.0
+  assetPath: Assets/Meeting_Room/Materials/Lamp.mat
+  uploadId: 666957

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cb2227dbb5e61a340b114cfb9bee2025
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 254953
+  packageName: Realistic Meeting Room
+  packageVersion: 1.0
+  assetPath: Assets/Meeting_Room/Prefabs/Projection.prefab
+  uploadId: 666957

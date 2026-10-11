@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 474e16c4aa01d2844a1965a4900e158f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 254953
+  packageName: Realistic Meeting Room
+  packageVersion: 1.0
+  assetPath: Assets/Meeting_Room/Prefabs/Screen.prefab
+  uploadId: 666957

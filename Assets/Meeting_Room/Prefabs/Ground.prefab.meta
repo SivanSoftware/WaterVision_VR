@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 77e3ed0873302824591c5eab2a113818
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 254953
+  packageName: Realistic Meeting Room
+  packageVersion: 1.0
+  assetPath: Assets/Meeting_Room/Prefabs/Ground.prefab
+  uploadId: 666957

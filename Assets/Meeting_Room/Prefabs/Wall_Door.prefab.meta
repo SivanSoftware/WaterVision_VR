@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e9e16fa51494a864498df3ef4d8f5aa1
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 254953
+  packageName: Realistic Meeting Room
+  packageVersion: 1.0
+  assetPath: Assets/Meeting_Room/Prefabs/Wall_Door.prefab
+  uploadId: 666957

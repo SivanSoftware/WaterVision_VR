@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 10e90dc7e704e13438178b94ac9fee5e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 254953
+  packageName: Realistic Meeting Room
+  packageVersion: 1.0
+  assetPath: Assets/Meeting_Room/Materials/Tv.mat
+  uploadId: 666957

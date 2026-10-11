@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 17cf3a5b1785f1745a56a950bd19034c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 254953
+  packageName: Realistic Meeting Room
+  packageVersion: 1.0
+  assetPath: Assets/Meeting_Room/Materials/ceeling.mat
+  uploadId: 666957

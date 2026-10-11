@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e49702a36dba94b47b5a83cef3d26c80
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 254953
+  packageName: Realistic Meeting Room
+  packageVersion: 1.0
+  assetPath: Assets/Meeting_Room/Materials/Window_White.mat
+  uploadId: 666957

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 977f73b0d8185e04b96dea78bf26a115, type: 3}
+  m_Name: ASLBubbleSettings
+  m_EditorClassIdentifier: Assembly-CSharp::ASLBubbleSettings
+  spawnPosition: {x: 0, y: -499.6, z: 0}
+  avatarScale: 1.5
+  readyRight: {x: 0.34, y: 0.95, z: 0.26}
+  readyLeft: {x: -0.2, y: 1.2, z: 0.3}
+  leftMirrorRight: 1
+  cameraDistance: 1.7
+  cameraYAboveHead: 0.05
+  lookYBelowHead: -0.1
+  cameraXOffset: 0.1
+  cameraFOV: 42
+  elbowHintWeight: 0.6
+  rightElbowHintOffset: {x: 0.1, y: -0.35, z: -0.1}
+  handRotationOffsetRight: {x: 0, y: 0, z: 0}
+  handRotationOffsetLeft: {x: 0, y: 0, z: 0}
+  forearmFollow: 1
+  readyWristEulerRight: {x: 45, y: -90, z: 0}
+  readyWristEulerLeft: {x: 45, y: 90, z: 0}
+  faceLerpSpeed: 8
+  smileMax: 1
+  mouthOpenMax: 3
+  gazeStrength: 1
+  saccadeAmount: 4
+  headTiltInfluence: 1
+  breathAmplitude: 0.012
+  breathHz: 0.25

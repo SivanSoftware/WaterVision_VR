@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Projectile
+  - Target
+  - Anchor
+  - PlayerHand
+  - Destroyer
+  - SamplesInfoPanel
+  - Whiteboard
+  - QDSUISection
+  - QDSUIAccentColor
+  - QDSUISecondaryButton
+  - QDSUIPrimaryButton
+  - QDSUITextSecondaryInvertedColor
+  - QDSUITextInvertedColor
+  - QDSUIToggleButton
+  - QDSUIIcon
+  - QDSUITextSecondaryColor
+  - QDSUIDestructiveButton
+  - QDSUISharedThemeColor
+  - QDSUIBorderlessButton
+  - QDSUIToggleBorderlessButton
+  - QDSUIBackplateGradient
+  - QDSUITooltip
+  - QDSUIToggleSwitch
+  - PassThroughButton
+  - PassThrough
+  - Locomotion
+  - LocoButton
+  - LocoText
+  - QDSUITextInputField
+  - QDSUIToggleCheckboxRadio
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Whiteboard
+  - Water
+  - UI
+  - Player
+  - Mirror
+  - 'Seat '
+  - Teleport
+  - LocalHead
+  - Whiteboard
+  - Overlay UI
+  - PlayerVisual
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - XR Simulation
+  - API SCREEN
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  m_RenderingLayers:
+  - Default
+  - Light Layer 1
+  - Light Layer 2
+  - Light Layer 3
+  - Light Layer 4
+  - Light Layer 5
+  - Light Layer 6
+  - Light Layer 7

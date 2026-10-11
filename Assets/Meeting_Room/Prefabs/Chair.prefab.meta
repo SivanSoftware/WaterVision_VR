@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0f29e7adbe1499649ab2a655bea8eeb3
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 254953
+  packageName: Realistic Meeting Room
+  packageVersion: 1.0
+  assetPath: Assets/Meeting_Room/Prefabs/Chair.prefab
+  uploadId: 666957

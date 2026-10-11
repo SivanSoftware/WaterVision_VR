@@ -1,0 +1,398 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5369036314342962007
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8568692199182134614}
+  - component: {fileID: 6774778853949232869}
+  - component: {fileID: 816704310361250783}
+  - component: {fileID: 4119401148271508410}
+  m_Layer: 0
+  m_Name: XR Device Simulator
+  m_TagString: EditorOnly
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8568692199182134614
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5369036314342962007}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.62886, y: 1.47777, z: -5.53612}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6774778853949232869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5369036314342962007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b34befe5d0cbb642bb5d09104a47160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_DeviceSimulatorActionAsset: {fileID: -944628639613478452, guid: 216b58cf014df4ac79bd6d85650978d7,
+    type: 3}
+  m_ControllerActionAsset: {fileID: -944628639613478452, guid: 88edd1935141f4f87b8b4b35d42174c1,
+    type: 3}
+  m_KeyboardXTranslateAction: {fileID: -2435995061748527091, guid: 216b58cf014df4ac79bd6d85650978d7,
+    type: 3}
+  m_KeyboardYTranslateAction: {fileID: 4091624078112751379, guid: 216b58cf014df4ac79bd6d85650978d7,
+    type: 3}
+  m_KeyboardZTranslateAction: {fileID: 8957443236229058949, guid: 216b58cf014df4ac79bd6d85650978d7,
+    type: 3}
+  m_ManipulateLeftAction: {fileID: 3215650258570939094, guid: 216b58cf014df4ac79bd6d85650978d7,
+    type: 3}
+  m_ManipulateRightAction: {fileID: 138396950478516224, guid: 216b58cf014df4ac79bd6d85650978d7,
+    type: 3}
+  m_ToggleManipulateLeftAction: {fileID: 2547216639932606815, guid: 216b58cf014df4ac79bd6d85650978d7,
+    type: 3}
+  m_ToggleManipulateRightAction: {fileID: 743384497930276301, guid: 216b58cf014df4ac79bd6d85650978d7,
+    type: 3}
+  m_ToggleManipulateBodyAction: {fileID: -658012382136555628, guid: 216b58cf014df4ac79bd6d85650978d7,
+    type: 3}
+  m_ManipulateHeadAction: {fileID: -3619485213038975404, guid: 216b58cf014df4ac79bd6d85650978d7,
+    type: 3}
+  m_HandControllerModeAction: {fileID: -6730069882215067947, guid: 216b58cf014df4ac79bd6d85650978d7,
+    type: 3}
+  m_CycleDevicesAction: {fileID: -7837977739890211585, guid: 216b58cf014df4ac79bd6d85650978d7,
+    type: 3}
+  m_StopManipulationAction: {fileID: 1698315126802870675, guid: 216b58cf014df4ac79bd6d85650978d7,
+    type: 3}
+  m_MouseDeltaAction: {fileID: -1273072440521047205, guid: 216b58cf014df4ac79bd6d85650978d7,
+    type: 3}
+  m_MouseScrollAction: {fileID: 4546399164687744209, guid: 216b58cf014df4ac79bd6d85650978d7,
+    type: 3}
+  m_RotateModeOverrideAction: {fileID: -8754530952185592012, guid: 216b58cf014df4ac79bd6d85650978d7,
+    type: 3}
+  m_ToggleMouseTransformationModeAction: {fileID: 3100586429251580691, guid: 216b58cf014df4ac79bd6d85650978d7,
+    type: 3}
+  m_NegateModeAction: {fileID: 1882878426541990298, guid: 216b58cf014df4ac79bd6d85650978d7,
+    type: 3}
+  m_XConstraintAction: {fileID: -8086843181801629294, guid: 216b58cf014df4ac79bd6d85650978d7,
+    type: 3}
+  m_YConstraintAction: {fileID: 5691479700773754790, guid: 216b58cf014df4ac79bd6d85650978d7,
+    type: 3}
+  m_ZConstraintAction: {fileID: 1644704167276153141, guid: 216b58cf014df4ac79bd6d85650978d7,
+    type: 3}
+  m_ResetAction: {fileID: -2638007419058092452, guid: 216b58cf014df4ac79bd6d85650978d7,
+    type: 3}
+  m_ToggleCursorLockAction: {fileID: -2382836779261746822, guid: 216b58cf014df4ac79bd6d85650978d7,
+    type: 3}
+  m_ToggleDevicePositionTargetAction: {fileID: -6716103979869350223, guid: 216b58cf014df4ac79bd6d85650978d7,
+    type: 3}
+  m_TogglePrimary2DAxisTargetAction: {fileID: -7682297331024740639, guid: 216b58cf014df4ac79bd6d85650978d7,
+    type: 3}
+  m_ToggleSecondary2DAxisTargetAction: {fileID: 1155009490345466815, guid: 216b58cf014df4ac79bd6d85650978d7,
+    type: 3}
+  m_Axis2DAction: {fileID: 8275859971367427353, guid: 88edd1935141f4f87b8b4b35d42174c1,
+    type: 3}
+  m_RestingHandAxis2DAction: {fileID: 6756245720351945193, guid: 88edd1935141f4f87b8b4b35d42174c1,
+    type: 3}
+  m_GripAction: {fileID: 5667446173830999989, guid: 88edd1935141f4f87b8b4b35d42174c1,
+    type: 3}
+  m_TriggerAction: {fileID: -2439264783773714294, guid: 88edd1935141f4f87b8b4b35d42174c1,
+    type: 3}
+  m_PrimaryButtonAction: {fileID: -3599823989380923159, guid: 88edd1935141f4f87b8b4b35d42174c1,
+    type: 3}
+  m_SecondaryButtonAction: {fileID: -8358032100899166728, guid: 88edd1935141f4f87b8b4b35d42174c1,
+    type: 3}
+  m_MenuAction: {fileID: 4116954447336496447, guid: 88edd1935141f4f87b8b4b35d42174c1,
+    type: 3}
+  m_Primary2DAxisClickAction: {fileID: 637922521265743415, guid: 88edd1935141f4f87b8b4b35d42174c1,
+    type: 3}
+  m_Secondary2DAxisClickAction: {fileID: -8358032100899166728, guid: 88edd1935141f4f87b8b4b35d42174c1,
+    type: 3}
+  m_Primary2DAxisTouchAction: {fileID: 2883175194488637904, guid: 88edd1935141f4f87b8b4b35d42174c1,
+    type: 3}
+  m_Secondary2DAxisTouchAction: {fileID: -851591506940895311, guid: 88edd1935141f4f87b8b4b35d42174c1,
+    type: 3}
+  m_PrimaryTouchAction: {fileID: -4201894270441249665, guid: 88edd1935141f4f87b8b4b35d42174c1,
+    type: 3}
+  m_SecondaryTouchAction: {fileID: 5188782311186578770, guid: 88edd1935141f4f87b8b4b35d42174c1,
+    type: 3}
+  m_HandActionAsset: {fileID: -944628639613478452, guid: 38f8cd6f088054c59a979c2a363f766e,
+    type: 3}
+  m_CameraTransform: {fileID: 0}
+  m_KeyboardTranslateSpace: 0
+  m_MouseTranslateSpace: 2
+  m_KeyboardXTranslateSpeed: 0.2
+  m_KeyboardYTranslateSpeed: 0.2
+  m_KeyboardZTranslateSpeed: 0.2
+  m_KeyboardBodyTranslateMultiplier: 5
+  m_MouseXTranslateSensitivity: 0.0004
+  m_MouseYTranslateSensitivity: 0.0004
+  m_MouseScrollTranslateSensitivity: 0.0002
+  m_MouseXRotateSensitivity: 0.2
+  m_MouseYRotateSensitivity: 0.2
+  m_MouseScrollRotateSensitivity: 0.05
+  m_MouseYRotateInvert: 0
+  m_DesiredCursorLockMode: 1
+  m_DeviceSimulatorUI: {fileID: 7662076761675301960, guid: 39c8e02d1a13f4e1cb3967fd869992b6,
+    type: 3}
+  m_GripAmount: 1
+  m_TriggerAmount: 1
+  m_HMDIsTracked: 1
+  m_HMDTrackingState: 3
+  m_LeftControllerIsTracked: 1
+  m_LeftControllerTrackingState: 3
+  m_RightControllerIsTracked: 1
+  m_RightControllerTrackingState: 3
+  m_LeftHandIsTracked: 1
+  m_RightHandIsTracked: 1
+  m_RestingHandExpressionCapture: {fileID: 0}
+  m_SimulatedHandExpressions: []
+--- !u!114 &816704310361250783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5369036314342962007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a798ede3f9ef495cb5b62f2a9896b2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RemoveOtherHMDDevices: 1
+  m_HandTrackingCapability: 1
+--- !u!114 &4119401148271508410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5369036314342962007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18d5c629281874bc18cb5ead1d245f6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SimulatedHandExpressions:
+  - m_Name: Poke
+    m_ToggleInput:
+      m_InputSourceMode: 2
+      m_InputActionPerformed:
+        m_Name: 
+        m_Type: 0
+        m_ExpectedControlType: 
+        m_Id: aac4fcd2-f835-44f9-ad9e-717f1d0a56a1
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 0
+      m_InputActionValue:
+        m_Name: 
+        m_Type: 0
+        m_ExpectedControlType: 
+        m_Id: c11ef2db-7277-4707-a130-c362223114a8
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 0
+      m_InputActionReferencePerformed: {fileID: -5976510165261225158, guid: 38f8cd6f088054c59a979c2a363f766e,
+        type: 3}
+      m_InputActionReferenceValue: {fileID: -5976510165261225158, guid: 38f8cd6f088054c59a979c2a363f766e,
+        type: 3}
+      m_ObjectReferenceObject: {fileID: 0}
+      m_ManualPerformed: 0
+      m_ManualValue: 0
+      m_ManualQueuePerformed: 0
+      m_ManualQueueWasPerformedThisFrame: 0
+      m_ManualQueueWasCompletedThisFrame: 0
+      m_ManualQueueValue: 0
+      m_ManualQueueTargetFrame: 0
+    m_Capture: {fileID: 11400000, guid: 13a61da1f39ff416f878164e01368340, type: 2}
+    m_IsQuickAction: 0
+  - m_Name: Pinch
+    m_ToggleInput:
+      m_InputSourceMode: 2
+      m_InputActionPerformed:
+        m_Name: 
+        m_Type: 0
+        m_ExpectedControlType: 
+        m_Id: 76db0311-b6ef-41ff-bbaf-1dac59f943dc
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 0
+      m_InputActionValue:
+        m_Name: 
+        m_Type: 0
+        m_ExpectedControlType: 
+        m_Id: 86573393-89f5-448d-8c62-8ab352958afd
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 0
+      m_InputActionReferencePerformed: {fileID: -8306000708137014372, guid: 38f8cd6f088054c59a979c2a363f766e,
+        type: 3}
+      m_InputActionReferenceValue: {fileID: -8306000708137014372, guid: 38f8cd6f088054c59a979c2a363f766e,
+        type: 3}
+      m_ObjectReferenceObject: {fileID: 0}
+      m_ManualPerformed: 0
+      m_ManualValue: 0
+      m_ManualQueuePerformed: 0
+      m_ManualQueueWasPerformedThisFrame: 0
+      m_ManualQueueWasCompletedThisFrame: 0
+      m_ManualQueueValue: 0
+      m_ManualQueueTargetFrame: 0
+    m_Capture: {fileID: 11400000, guid: f2707df226eed4c8fb850170f4726bb5, type: 2}
+    m_IsQuickAction: 0
+  - m_Name: Grab
+    m_ToggleInput:
+      m_InputSourceMode: 2
+      m_InputActionPerformed:
+        m_Name: 
+        m_Type: 0
+        m_ExpectedControlType: 
+        m_Id: a1f98a06-df3d-4feb-b1da-206a5f661aa8
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 0
+      m_InputActionValue:
+        m_Name: 
+        m_Type: 0
+        m_ExpectedControlType: 
+        m_Id: 1713ae4a-66fb-4348-af45-de3be63a5454
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 0
+      m_InputActionReferencePerformed: {fileID: -4373459253818063952, guid: 38f8cd6f088054c59a979c2a363f766e,
+        type: 3}
+      m_InputActionReferenceValue: {fileID: -4373459253818063952, guid: 38f8cd6f088054c59a979c2a363f766e,
+        type: 3}
+      m_ObjectReferenceObject: {fileID: 0}
+      m_ManualPerformed: 0
+      m_ManualValue: 0
+      m_ManualQueuePerformed: 0
+      m_ManualQueueWasPerformedThisFrame: 0
+      m_ManualQueueWasCompletedThisFrame: 0
+      m_ManualQueueValue: 0
+      m_ManualQueueTargetFrame: 0
+    m_Capture: {fileID: 11400000, guid: 64a70d95a33c94602b462218274c5d76, type: 2}
+    m_IsQuickAction: 0
+  - m_Name: Thumb
+    m_ToggleInput:
+      m_InputSourceMode: 2
+      m_InputActionPerformed:
+        m_Name: 
+        m_Type: 0
+        m_ExpectedControlType: 
+        m_Id: 5762c19a-008c-42f8-8f5b-3b36804b8137
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 0
+      m_InputActionValue:
+        m_Name: 
+        m_Type: 0
+        m_ExpectedControlType: 
+        m_Id: abe80d9c-1cdb-4099-acb0-77a27f861033
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 0
+      m_InputActionReferencePerformed: {fileID: -741559036651486339, guid: 38f8cd6f088054c59a979c2a363f766e,
+        type: 3}
+      m_InputActionReferenceValue: {fileID: -741559036651486339, guid: 38f8cd6f088054c59a979c2a363f766e,
+        type: 3}
+      m_ObjectReferenceObject: {fileID: 0}
+      m_ManualPerformed: 0
+      m_ManualValue: 0
+      m_ManualQueuePerformed: 0
+      m_ManualQueueWasPerformedThisFrame: 0
+      m_ManualQueueWasCompletedThisFrame: 0
+      m_ManualQueueValue: 0
+      m_ManualQueueTargetFrame: 0
+    m_Capture: {fileID: 11400000, guid: 58e2a825e74934c59a8bc2758a296a1e, type: 2}
+    m_IsQuickAction: 0
+  - m_Name: Open
+    m_ToggleInput:
+      m_InputSourceMode: 2
+      m_InputActionPerformed:
+        m_Name: 
+        m_Type: 0
+        m_ExpectedControlType: 
+        m_Id: 48f4382d-8c5f-4e39-83ef-405d16e851a8
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 0
+      m_InputActionValue:
+        m_Name: 
+        m_Type: 0
+        m_ExpectedControlType: 
+        m_Id: 3a364d19-e512-4a45-a31d-ff022b11485f
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 0
+      m_InputActionReferencePerformed: {fileID: -9192331390769138535, guid: 38f8cd6f088054c59a979c2a363f766e,
+        type: 3}
+      m_InputActionReferenceValue: {fileID: -9192331390769138535, guid: 38f8cd6f088054c59a979c2a363f766e,
+        type: 3}
+      m_ObjectReferenceObject: {fileID: 0}
+      m_ManualPerformed: 0
+      m_ManualValue: 0
+      m_ManualQueuePerformed: 0
+      m_ManualQueueWasPerformedThisFrame: 0
+      m_ManualQueueWasCompletedThisFrame: 0
+      m_ManualQueueValue: 0
+      m_ManualQueueTargetFrame: 0
+    m_Capture: {fileID: 11400000, guid: 53ce8e1b1787b4a858903e0b4a8922a4, type: 2}
+    m_IsQuickAction: 0
+  - m_Name: Fist
+    m_ToggleInput:
+      m_InputSourceMode: 2
+      m_InputActionPerformed:
+        m_Name: 
+        m_Type: 0
+        m_ExpectedControlType: 
+        m_Id: 725934b7-db89-4d01-a944-8760f9586bcd
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 0
+      m_InputActionValue:
+        m_Name: 
+        m_Type: 0
+        m_ExpectedControlType: 
+        m_Id: f2556394-ebee-4447-aab9-a0c752530e74
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 0
+      m_InputActionReferencePerformed: {fileID: 6469712917552426222, guid: 38f8cd6f088054c59a979c2a363f766e,
+        type: 3}
+      m_InputActionReferenceValue: {fileID: 6469712917552426222, guid: 38f8cd6f088054c59a979c2a363f766e,
+        type: 3}
+      m_ObjectReferenceObject: {fileID: 0}
+      m_ManualPerformed: 0
+      m_ManualValue: 0
+      m_ManualQueuePerformed: 0
+      m_ManualQueueWasPerformedThisFrame: 0
+      m_ManualQueueWasCompletedThisFrame: 0
+      m_ManualQueueValue: 0
+      m_ManualQueueTargetFrame: 0
+    m_Capture: {fileID: 11400000, guid: 3f734f4d6b50f4ff4ba5be4833904ee8, type: 2}
+    m_IsQuickAction: 0
+  m_RestingHandExpressionCapture: {fileID: 11400000, guid: 2e32e9ccec27a4340b82f6e803c61bcd,
+    type: 2}

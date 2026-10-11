@@ -1,0 +1,2659 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74b0c7f020ff3654ab3a9cba39d1d02a, type: 3}
+  m_Name: SignCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::WaterVision.ASL.SignCatalog
+  signs:
+  - word: hello
+    frames:
+    - rightHandLocalPos: {x: 0.18, y: 1.65, z: 0.28}
+      rightHandLocalEuler: {x: 0, y: 10, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.25
+      palmDirRight: 1
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.42, y: 1.62, z: 0.25}
+      rightHandLocalEuler: {x: 0, y: 35, z: -5}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.3
+      palmDirRight: 1
+      palmDirLeft: 0
+    playbackSpeed: 1
+    emotion: 1
+    notes: Right flat-B hand salutes from forehead outward.
+  - word: hi
+    frames:
+    - rightHandLocalPos: {x: 0.18, y: 1.65, z: 0.28}
+      rightHandLocalEuler: {x: 0, y: 10, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.25
+      palmDirRight: 1
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.38, y: 1.62, z: 0.25}
+      rightHandLocalEuler: {x: 0, y: 30, z: -5}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.25
+      palmDirRight: 1
+      palmDirLeft: 0
+    playbackSpeed: 1
+    emotion: 1
+    notes: Same shape as HELLO, slightly smaller sweep.
+  - word: bye
+    frames:
+    - rightHandLocalPos: {x: 0.22, y: 1.55, z: 0.3}
+      rightHandLocalEuler: {x: 0, y: 0, z: -10}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.3
+      palmDirRight: 1
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.22, y: 1.55, z: 0.3}
+      rightHandLocalEuler: {x: 0, y: 0, z: 10}
+      r_idx: 0.3
+      r_mid: 0.3
+      r_ring: 0.3
+      r_pinky: 0.3
+      r_thumb: 0
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.2
+      palmDirRight: 1
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.22, y: 1.55, z: 0.3}
+      rightHandLocalEuler: {x: 0, y: 0, z: -10}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.2
+      palmDirRight: 1
+      palmDirLeft: 0
+    playbackSpeed: 1.2
+    emotion: 1
+    notes: Wave open hand at shoulder level.
+  - word: good-morning
+    frames:
+    - rightHandLocalPos: {x: 0.1, y: 1.55, z: 0.3}
+      rightHandLocalEuler: {x: 30, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.1, y: 1.5, z: 0.3}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0
+      l_mid: 0
+      l_ring: 0
+      l_pinky: 0
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.12
+      transitionSeconds: 0.3
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.15, y: 1.2, z: 0.4}
+      rightHandLocalEuler: {x: -20, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.05, y: 1.1, z: 0.35}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0
+      l_mid: 0
+      l_ring: 0
+      l_pinky: 0
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.3
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.2, y: 1.45, z: 0.4}
+      rightHandLocalEuler: {x: -30, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.05, y: 1.1, z: 0.35}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0
+      l_mid: 0
+      l_ring: 0
+      l_pinky: 0
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.3
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 0.9
+    emotion: 1
+    notes: GOOD (flat hand from chin down) + MORNING (rising forearm).
+  - word: goodnight
+    frames:
+    - rightHandLocalPos: {x: 0.1, y: 1.6, z: 0.35}
+      rightHandLocalEuler: {x: -30, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.1, y: 1.2, z: 0.4}
+      leftHandLocalEuler: {x: 20, y: 0, z: 0}
+      l_idx: 0
+      l_mid: 0
+      l_ring: 0
+      l_pinky: 0
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.3
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: -0.05, y: 1.2, z: 0.4}
+      rightHandLocalEuler: {x: -50, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.1, y: 1.2, z: 0.4}
+      leftHandLocalEuler: {x: 20, y: 0, z: 0}
+      l_idx: 0
+      l_mid: 0
+      l_ring: 0
+      l_pinky: 0
+      l_thumb: 0.55
+      headTiltDeg: 5
+      torsoLeanDeg: 0
+      holdSeconds: 0.15
+      transitionSeconds: 0.3
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 0.9
+    emotion: 0
+    notes: Right flat hand arcs down onto left flat hand back.
+  - word: please
+    frames:
+    - rightHandLocalPos: {x: 0.05, y: 1.25, z: 0.18}
+      rightHandLocalEuler: {x: -15, y: -30, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.3
+      palmDirRight: 2
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.1, y: 1.2, z: 0.18}
+      rightHandLocalEuler: {x: -15, y: -30, z: -10}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.25
+      palmDirRight: 2
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.05, y: 1.25, z: 0.18}
+      rightHandLocalEuler: {x: -15, y: -30, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.25
+      palmDirRight: 2
+      palmDirLeft: 0
+    playbackSpeed: 0.8
+    emotion: 2
+    notes: Flat hand on chest, small CW circle (approximated as 2 keyframes).
+  - word: thank-you
+    frames:
+    - rightHandLocalPos: {x: 0.05, y: 1.55, z: 0.32}
+      rightHandLocalEuler: {x: -30, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.12
+      transitionSeconds: 0.3
+      palmDirRight: 2
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.15, y: 1.4, z: 0.5}
+      rightHandLocalEuler: {x: -50, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 5
+      torsoLeanDeg: 5
+      holdSeconds: 0.15
+      transitionSeconds: 0.35
+      palmDirRight: 1
+      palmDirLeft: 0
+    playbackSpeed: 0.85
+    emotion: 2
+    notes: Fingertips touch chin, move forward+down.
+  - word: sorry
+    frames:
+    - rightHandLocalPos: {x: 0.05, y: 1.3, z: 0.18}
+      rightHandLocalEuler: {x: 0, y: -20, z: 0}
+      r_idx: 0.85
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 10
+      torsoLeanDeg: 0
+      holdSeconds: 0.12
+      transitionSeconds: 0.3
+      palmDirRight: 2
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.1, y: 1.25, z: 0.18}
+      rightHandLocalEuler: {x: 0, y: -20, z: 10}
+      r_idx: 0.85
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 10
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.25
+      palmDirRight: 2
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.05, y: 1.3, z: 0.18}
+      rightHandLocalEuler: {x: 0, y: -20, z: 0}
+      r_idx: 0.85
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 10
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.25
+      palmDirRight: 2
+      palmDirLeft: 0
+    playbackSpeed: 0.85
+    emotion: 6
+    notes: Right fist on chest, small circular motion.
+  - word: welcome
+    frames:
+    - rightHandLocalPos: {x: 0.35, y: 1.4, z: 0.3}
+      rightHandLocalEuler: {x: 0, y: -10, z: -10}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.3
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.1, y: 1.35, z: 0.32}
+      rightHandLocalEuler: {x: 0, y: -30, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.3
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 0.9
+    emotion: 1
+    notes: Open hand sweeps inward toward chest (welcoming gesture).
+  - word: yes
+    frames:
+    - rightHandLocalPos: {x: 0.2, y: 1.4, z: 0.35}
+      rightHandLocalEuler: {x: 0, y: 0, z: 0}
+      r_idx: 0.85
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 5
+      torsoLeanDeg: 0
+      holdSeconds: 0.06
+      transitionSeconds: 0.2
+      palmDirRight: 4
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.2, y: 1.38, z: 0.35}
+      rightHandLocalEuler: {x: 35, y: 0, z: 0}
+      r_idx: 0.85
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 8
+      torsoLeanDeg: 0
+      holdSeconds: 0.06
+      transitionSeconds: 0.12
+      palmDirRight: 4
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.2, y: 1.4, z: 0.35}
+      rightHandLocalEuler: {x: 0, y: 0, z: 0}
+      r_idx: 0.85
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 5
+      torsoLeanDeg: 0
+      holdSeconds: 0.06
+      transitionSeconds: 0.12
+      palmDirRight: 4
+      palmDirLeft: 0
+    playbackSpeed: 1.4
+    emotion: 2
+    notes: Right S-fist nods at the wrist.
+  - word: no
+    frames:
+    - rightHandLocalPos: {x: 0.18, y: 1.4, z: 0.4}
+      rightHandLocalEuler: {x: 0, y: -10, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.06
+      transitionSeconds: 0.2
+      palmDirRight: 4
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.18, y: 1.4, z: 0.4}
+      rightHandLocalEuler: {x: 0, y: -10, z: 0}
+      r_idx: 0.5
+      r_mid: 0.5
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.1
+      palmDirRight: 4
+      palmDirLeft: 0
+    playbackSpeed: 1.4
+    emotion: 7
+    notes: Index+middle+thumb close in beak motion.
+  - word: maybe
+    frames:
+    - rightHandLocalPos: {x: 0.2, y: 1.3, z: 0.3}
+      rightHandLocalEuler: {x: -90, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.2, y: 1.2, z: 0.3}
+      leftHandLocalEuler: {x: -90, y: 0, z: 0}
+      l_idx: 0
+      l_mid: 0
+      l_ring: 0
+      l_pinky: 0
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.3
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.2, y: 1.2, z: 0.3}
+      rightHandLocalEuler: {x: -90, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.2, y: 1.3, z: 0.3}
+      leftHandLocalEuler: {x: -90, y: 0, z: 0}
+      l_idx: 0
+      l_mid: 0
+      l_ring: 0
+      l_pinky: 0
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.25
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.2, y: 1.3, z: 0.3}
+      rightHandLocalEuler: {x: -90, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.2, y: 1.2, z: 0.3}
+      leftHandLocalEuler: {x: -90, y: 0, z: 0}
+      l_idx: 0
+      l_mid: 0
+      l_ring: 0
+      l_pinky: 0
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.25
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 0.9
+    emotion: 0
+    notes: Both palms up, alternate weighing scales.
+  - word: ok
+    frames:
+    - rightHandLocalPos: {x: 0.22, y: 1.45, z: 0.4}
+      rightHandLocalEuler: {x: 0, y: 0, z: 0}
+      r_idx: 0.5
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.15
+      transitionSeconds: 0.3
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 1
+    emotion: 0
+    notes: F-hand (index-thumb circle, M/R/P extended).
+  - word: i
+    frames:
+    - rightHandLocalPos: {x: 0.02, y: 1.3, z: 0.1}
+      rightHandLocalEuler: {x: 0, y: -45, z: 0}
+      r_idx: 0
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 5
+      torsoLeanDeg: 0
+      holdSeconds: 0.15
+      transitionSeconds: 0.25
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 1
+    emotion: 0
+    notes: Index point at sternum.
+  - word: me
+    frames:
+    - rightHandLocalPos: {x: 0.02, y: 1.3, z: 0.1}
+      rightHandLocalEuler: {x: 0, y: -45, z: 0}
+      r_idx: 0
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 5
+      torsoLeanDeg: 0
+      holdSeconds: 0.15
+      transitionSeconds: 0.25
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 1
+    emotion: 0
+    notes: Same as I.
+  - word: you
+    frames:
+    - rightHandLocalPos: {x: 0.2, y: 1.4, z: 0.5}
+      rightHandLocalEuler: {x: 0, y: 10, z: 0}
+      r_idx: 0
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.12
+      transitionSeconds: 0.25
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 1
+    emotion: 0
+    notes: Index point straight forward.
+  - word: we
+    frames:
+    - rightHandLocalPos: {x: 0.05, y: 1.45, z: 0.15}
+      rightHandLocalEuler: {x: 0, y: -30, z: 0}
+      r_idx: 0
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.25
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: -0.05, y: 1.45, z: 0.15}
+      rightHandLocalEuler: {x: 0, y: 30, z: 0}
+      r_idx: 0
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.3
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 0.9
+    emotion: 0
+    notes: Index touches right then left shoulder.
+  - word: they
+    frames:
+    - rightHandLocalPos: {x: 0.15, y: 1.4, z: 0.45}
+      rightHandLocalEuler: {x: 0, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.25
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.4, y: 1.4, z: 0.35}
+      rightHandLocalEuler: {x: 0, y: 40, z: 0}
+      r_idx: 0
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.25
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 0.9
+    emotion: 0
+    notes: Index sweep to the side.
+  - word: it
+    frames:
+    - rightHandLocalPos: {x: 0.2, y: 1.2, z: 0.45}
+      rightHandLocalEuler: {x: 30, y: 10, z: 0}
+      r_idx: 0
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.25
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 1
+    emotion: 0
+    notes: Index point downward-forward.
+  - word: want
+    frames:
+    - rightHandLocalPos: {x: 0.25, y: 1.35, z: 0.5}
+      rightHandLocalEuler: {x: -60, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0.65
+      leftHandLocalPos: {x: -0.25, y: 1.35, z: 0.5}
+      leftHandLocalEuler: {x: -60, y: 0, z: 0}
+      l_idx: 0
+      l_mid: 0
+      l_ring: 0
+      l_pinky: 0
+      l_thumb: 0.65
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.3
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.2, y: 1.25, z: 0.25}
+      rightHandLocalEuler: {x: -60, y: 0, z: 0}
+      r_idx: 0.35
+      r_mid: 0.35
+      r_ring: 0.35
+      r_pinky: 0.35
+      r_thumb: 0.4
+      leftHandLocalPos: {x: -0.2, y: 1.25, z: 0.25}
+      leftHandLocalEuler: {x: -60, y: 0, z: 0}
+      l_idx: 0.35
+      l_mid: 0.35
+      l_ring: 0.35
+      l_pinky: 0.35
+      l_thumb: 0.4
+      headTiltDeg: 0
+      torsoLeanDeg: 5
+      holdSeconds: 0.12
+      transitionSeconds: 0.3
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 0.9
+    emotion: 0
+    notes: Open claw hands, palms up, drag toward body.
+  - word: need
+    frames:
+    - rightHandLocalPos: {x: 0.18, y: 1.4, z: 0.4}
+      rightHandLocalEuler: {x: 45, y: 0, z: 0}
+      r_idx: 0.6
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.08
+      transitionSeconds: 0.2
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.18, y: 1.2, z: 0.45}
+      rightHandLocalEuler: {x: 60, y: 0, z: 0}
+      r_idx: 0.6
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.06
+      transitionSeconds: 0.1
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.18, y: 1.3, z: 0.42}
+      rightHandLocalEuler: {x: 50, y: 0, z: 0}
+      r_idx: 0.6
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.06
+      transitionSeconds: 0.1
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 1.2
+    emotion: 0
+    notes: X-handshape (hooked index) bounces downward.
+  - word: have
+    frames:
+    - rightHandLocalPos: {x: 0.1, y: 1.4, z: 0.3}
+      rightHandLocalEuler: {x: -30, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.1, y: 1.4, z: 0.3}
+      leftHandLocalEuler: {x: -30, y: 0, z: 0}
+      l_idx: 0
+      l_mid: 0
+      l_ring: 0
+      l_pinky: 0
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.3
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.05, y: 1.3, z: 0.15}
+      rightHandLocalEuler: {x: -30, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.05, y: 1.3, z: 0.15}
+      leftHandLocalEuler: {x: -30, y: 0, z: 0}
+      l_idx: 0
+      l_mid: 0
+      l_ring: 0
+      l_pinky: 0
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 5
+      holdSeconds: 0.15
+      transitionSeconds: 0.25
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 0.9
+    emotion: 0
+    notes: Both flat hands, fingertips touch chest.
+  - word: help
+    frames:
+    - rightHandLocalPos: {x: 0, y: 1.2, z: 0.4}
+      rightHandLocalEuler: {x: 0, y: 0, z: 0}
+      r_idx: 0.85
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.05, y: 1.15, z: 0.4}
+      leftHandLocalEuler: {x: -30, y: 0, z: 0}
+      l_idx: 0
+      l_mid: 0
+      l_ring: 0
+      l_pinky: 0
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.3
+      palmDirRight: 1
+      palmDirLeft: 5
+    - rightHandLocalPos: {x: 0, y: 1.4, z: 0.45}
+      rightHandLocalEuler: {x: 0, y: 0, z: 0}
+      r_idx: 0.85
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.05, y: 1.35, z: 0.45}
+      leftHandLocalEuler: {x: -30, y: 0, z: 0}
+      l_idx: 0
+      l_mid: 0
+      l_ring: 0
+      l_pinky: 0
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.12
+      transitionSeconds: 0.3
+      palmDirRight: 1
+      palmDirLeft: 5
+    playbackSpeed: 0.9
+    emotion: 4
+    notes: Right fist on left flat palm, both lift.
+  - word: go
+    frames:
+    - rightHandLocalPos: {x: 0.15, y: 1.35, z: 0.25}
+      rightHandLocalEuler: {x: 0, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.15, y: 1.35, z: 0.25}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.5
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.08
+      transitionSeconds: 0.2
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.2, y: 1.3, z: 0.55}
+      rightHandLocalEuler: {x: 0, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.2, y: 1.3, z: 0.55}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.5
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.2
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 1.2
+    emotion: 0
+    notes: Both index point forward, both jab outward.
+  - word: come
+    frames:
+    - rightHandLocalPos: {x: 0.25, y: 1.3, z: 0.55}
+      rightHandLocalEuler: {x: 0, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.25, y: 1.3, z: 0.55}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.5
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.25
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.15, y: 1.35, z: 0.25}
+      rightHandLocalEuler: {x: 0, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.15, y: 1.35, z: 0.25}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.5
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.25
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 1
+    emotion: 0
+    notes: Both index fingers beckon inward.
+  - word: stop
+    frames:
+    - rightHandLocalPos: {x: 0.1, y: 1.5, z: 0.4}
+      rightHandLocalEuler: {x: 0, y: -30, z: -20}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.1, y: 1.25, z: 0.4}
+      leftHandLocalEuler: {x: -90, y: 0, z: 0}
+      l_idx: 0
+      l_mid: 0
+      l_ring: 0
+      l_pinky: 0
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.08
+      transitionSeconds: 0.2
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: -0.05, y: 1.25, z: 0.4}
+      rightHandLocalEuler: {x: 0, y: -30, z: -90}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.1, y: 1.25, z: 0.4}
+      leftHandLocalEuler: {x: -90, y: 0, z: 0}
+      l_idx: 0
+      l_mid: 0
+      l_ring: 0
+      l_pinky: 0
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.15
+      transitionSeconds: 0.15
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 1.3
+    emotion: 4
+    notes: Right flat-B hand chops onto left flat-B palm.
+  - word: eat
+    frames:
+    - rightHandLocalPos: {x: 0.1, y: 1.55, z: 0.3}
+      rightHandLocalEuler: {x: 0, y: 0, z: 0}
+      r_idx: 0.55
+      r_mid: 0.55
+      r_ring: 0.55
+      r_pinky: 0.55
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.25
+      palmDirRight: 4
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.05, y: 1.62, z: 0.2}
+      rightHandLocalEuler: {x: 0, y: 0, z: 0}
+      r_idx: 0.55
+      r_mid: 0.55
+      r_ring: 0.55
+      r_pinky: 0.55
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.2
+      palmDirRight: 4
+      palmDirLeft: 0
+    playbackSpeed: 0.9
+    emotion: 0
+    notes: Flat-O (fingertips+thumb pinch) taps mouth.
+  - word: drink
+    frames:
+    - rightHandLocalPos: {x: 0.18, y: 1.4, z: 0.3}
+      rightHandLocalEuler: {x: 0, y: 0, z: 0}
+      r_idx: 0.35
+      r_mid: 0.35
+      r_ring: 0.35
+      r_pinky: 0.35
+      r_thumb: 0.35
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.25
+      palmDirRight: 4
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.1, y: 1.62, z: 0.2}
+      rightHandLocalEuler: {x: -40, y: 0, z: 0}
+      r_idx: 0.35
+      r_mid: 0.35
+      r_ring: 0.35
+      r_pinky: 0.35
+      r_thumb: 0.35
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.12
+      transitionSeconds: 0.25
+      palmDirRight: 4
+      palmDirLeft: 0
+    playbackSpeed: 0.9
+    emotion: 0
+    notes: C-hand tips toward mouth (drinking cup).
+  - word: work
+    frames:
+    - rightHandLocalPos: {x: 0.05, y: 1.3, z: 0.4}
+      rightHandLocalEuler: {x: 0, y: 0, z: 0}
+      r_idx: 0.85
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.05, y: 1.2, z: 0.4}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.08
+      transitionSeconds: 0.2
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.05, y: 1.2, z: 0.4}
+      rightHandLocalEuler: {x: 0, y: 0, z: 0}
+      r_idx: 0.85
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.05, y: 1.2, z: 0.4}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.05
+      transitionSeconds: 0.08
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.05, y: 1.3, z: 0.4}
+      rightHandLocalEuler: {x: 0, y: 0, z: 0}
+      r_idx: 0.85
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.05, y: 1.2, z: 0.4}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.05
+      transitionSeconds: 0.08
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 1.1
+    emotion: 0
+    notes: Right S-fist taps top of left S-fist twice.
+  - word: good
+    frames:
+    - rightHandLocalPos: {x: 0.05, y: 1.55, z: 0.32}
+      rightHandLocalEuler: {x: -30, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.05, y: 1.2, z: 0.4}
+      leftHandLocalEuler: {x: -90, y: 0, z: 0}
+      l_idx: 0
+      l_mid: 0
+      l_ring: 0
+      l_pinky: 0
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.3
+      palmDirRight: 2
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: -0.02, y: 1.22, z: 0.4}
+      rightHandLocalEuler: {x: -50, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.05, y: 1.2, z: 0.4}
+      leftHandLocalEuler: {x: -90, y: 0, z: 0}
+      l_idx: 0
+      l_mid: 0
+      l_ring: 0
+      l_pinky: 0
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.12
+      transitionSeconds: 0.25
+      palmDirRight: 1
+      palmDirLeft: 0
+    playbackSpeed: 0.95
+    emotion: 2
+    notes: Flat hand from chin moves down onto other flat palm.
+  - word: bad
+    frames:
+    - rightHandLocalPos: {x: 0.05, y: 1.55, z: 0.32}
+      rightHandLocalEuler: {x: -30, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: -5
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.25
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.18, y: 1.3, z: 0.45}
+      rightHandLocalEuler: {x: 60, y: 30, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: -10
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.2
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 1.2
+    emotion: 0
+    notes: Flat hand from chin flips palm-down outward.
+  - word: happy
+    frames:
+    - rightHandLocalPos: {x: 0.08, y: 1.2, z: 0.18}
+      rightHandLocalEuler: {x: -20, y: -10, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: -5
+      torsoLeanDeg: 0
+      holdSeconds: 0.06
+      transitionSeconds: 0.15
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.08, y: 1.4, z: 0.18}
+      rightHandLocalEuler: {x: -20, y: -10, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: -5
+      torsoLeanDeg: 0
+      holdSeconds: 0.05
+      transitionSeconds: 0.1
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.08, y: 1.2, z: 0.18}
+      rightHandLocalEuler: {x: -20, y: -10, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: -5
+      torsoLeanDeg: 0
+      holdSeconds: 0.05
+      transitionSeconds: 0.1
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.08, y: 1.4, z: 0.18}
+      rightHandLocalEuler: {x: -20, y: -10, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: -5
+      torsoLeanDeg: 0
+      holdSeconds: 0.05
+      transitionSeconds: 0.1
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 1
+    emotion: 2
+    notes: Flat hand brushes upward on chest twice.
+  - word: sad
+    frames:
+    - rightHandLocalPos: {x: 0.1, y: 1.65, z: 0.2}
+      rightHandLocalEuler: {x: -20, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0.3
+      leftHandLocalPos: {x: -0.1, y: 1.65, z: 0.2}
+      leftHandLocalEuler: {x: -20, y: 0, z: 0}
+      l_idx: 0
+      l_mid: 0
+      l_ring: 0
+      l_pinky: 0
+      l_thumb: 0.3
+      headTiltDeg: 10
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.3
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.1, y: 1.25, z: 0.25}
+      rightHandLocalEuler: {x: -20, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0.3
+      leftHandLocalPos: {x: -0.1, y: 1.25, z: 0.25}
+      leftHandLocalEuler: {x: -20, y: 0, z: 0}
+      l_idx: 0
+      l_mid: 0
+      l_ring: 0
+      l_pinky: 0
+      l_thumb: 0.3
+      headTiltDeg: 15
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.35
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 0.85
+    emotion: 6
+    notes: Open hands at face, drag downward (tears).
+  - word: tired
+    frames:
+    - rightHandLocalPos: {x: 0.08, y: 1.35, z: 0.18}
+      rightHandLocalEuler: {x: -30, y: 0, z: 0}
+      r_idx: 0.4
+      r_mid: 0.4
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.08, y: 1.35, z: 0.18}
+      leftHandLocalEuler: {x: -30, y: 0, z: 0}
+      l_idx: 0.4
+      l_mid: 0.4
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.5
+      headTiltDeg: 5
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.3
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.08, y: 1.25, z: 0.2}
+      rightHandLocalEuler: {x: -45, y: 0, z: 0}
+      r_idx: 0.4
+      r_mid: 0.4
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.08, y: 1.25, z: 0.2}
+      leftHandLocalEuler: {x: -45, y: 0, z: 0}
+      l_idx: 0.4
+      l_mid: 0.4
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.5
+      headTiltDeg: 8
+      torsoLeanDeg: 0
+      holdSeconds: 0.15
+      transitionSeconds: 0.25
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 0.8
+    emotion: 0
+    notes: Bent-V hands on chest fall slightly.
+  - word: sick
+    frames:
+    - rightHandLocalPos: {x: 0.05, y: 1.7, z: 0.22}
+      rightHandLocalEuler: {x: 0, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0.55
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0.4
+      leftHandLocalPos: {x: -0.05, y: 1.1, z: 0.22}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0
+      l_mid: 0.55
+      l_ring: 0
+      l_pinky: 0
+      l_thumb: 0.4
+      headTiltDeg: 10
+      torsoLeanDeg: 0
+      holdSeconds: 0.12
+      transitionSeconds: 0.3
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 0.85
+    emotion: 0
+    notes: Middle fingertips touch forehead and stomach (8-hand).
+  - word: water
+    frames:
+    - rightHandLocalPos: {x: 0.08, y: 1.55, z: 0.3}
+      rightHandLocalEuler: {x: 0, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0.85
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.08
+      transitionSeconds: 0.2
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.05, y: 1.6, z: 0.2}
+      rightHandLocalEuler: {x: 0, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0.85
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.15
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.08, y: 1.55, z: 0.3}
+      rightHandLocalEuler: {x: 0, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0.85
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.08
+      transitionSeconds: 0.15
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 1
+    emotion: 0
+    notes: W-handshape (index+mid+ring up) taps chin.
+  - word: room
+    frames:
+    - rightHandLocalPos: {x: 0.2, y: 1.45, z: 0.4}
+      rightHandLocalEuler: {x: 0, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.2, y: 1.45, z: 0.4}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0
+      l_mid: 0
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.5
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.3
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.2, y: 1.2, z: 0.4}
+      rightHandLocalEuler: {x: 0, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.2, y: 1.2, z: 0.4}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0
+      l_mid: 0
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.5
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.25
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 0.9
+    emotion: 0
+    notes: Both R-hands draw a square outline.
+  - word: friend
+    frames:
+    - rightHandLocalPos: {x: 0.05, y: 1.3, z: 0.4}
+      rightHandLocalEuler: {x: 0, y: 0, z: -30}
+      r_idx: 0.4
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.05, y: 1.3, z: 0.4}
+      leftHandLocalEuler: {x: 0, y: 0, z: 30}
+      l_idx: 0.4
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.5
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.25
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.05, y: 1.3, z: 0.4}
+      rightHandLocalEuler: {x: 0, y: 0, z: 30}
+      r_idx: 0.4
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.05, y: 1.3, z: 0.4}
+      leftHandLocalEuler: {x: 0, y: 0, z: -30}
+      l_idx: 0.4
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.5
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.2
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 0.9
+    emotion: 2
+    notes: Index fingers hook (R over L, then L over R).
+  - word: person
+    frames:
+    - rightHandLocalPos: {x: 0.18, y: 1.55, z: 0.35}
+      rightHandLocalEuler: {x: 0, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0.45
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.4
+      leftHandLocalPos: {x: -0.18, y: 1.55, z: 0.35}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0
+      l_mid: 0.45
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.4
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.3
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.18, y: 1.1, z: 0.35}
+      rightHandLocalEuler: {x: 0, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0.45
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.4
+      leftHandLocalPos: {x: -0.18, y: 1.1, z: 0.35}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0
+      l_mid: 0.45
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.4
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.3
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 0.9
+    emotion: 0
+    notes: Both flat-P hands sweep downward in parallel.
+  - word: name
+    frames:
+    - rightHandLocalPos: {x: 0.05, y: 1.35, z: 0.4}
+      rightHandLocalEuler: {x: 0, y: 0, z: -45}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.05, y: 1.3, z: 0.4}
+      leftHandLocalEuler: {x: 0, y: 0, z: 45}
+      l_idx: 0
+      l_mid: 0
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.5
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.08
+      transitionSeconds: 0.2
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.05, y: 1.32, z: 0.4}
+      rightHandLocalEuler: {x: 0, y: 0, z: -45}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.05, y: 1.3, z: 0.4}
+      leftHandLocalEuler: {x: 0, y: 0, z: 45}
+      l_idx: 0
+      l_mid: 0
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.5
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.06
+      transitionSeconds: 0.1
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.05, y: 1.35, z: 0.4}
+      rightHandLocalEuler: {x: 0, y: 0, z: -45}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.05, y: 1.3, z: 0.4}
+      leftHandLocalEuler: {x: 0, y: 0, z: 45}
+      l_idx: 0
+      l_mid: 0
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.5
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.06
+      transitionSeconds: 0.1
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 1.1
+    emotion: 0
+    notes: Right H-hand taps on left H-hand, twice.
+  - word: what
+    frames:
+    - rightHandLocalPos: {x: 0.22, y: 1.3, z: 0.4}
+      rightHandLocalEuler: {x: -90, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0
+      leftHandLocalPos: {x: -0.22, y: 1.3, z: 0.4}
+      leftHandLocalEuler: {x: -90, y: 0, z: 0}
+      l_idx: 0
+      l_mid: 0
+      l_ring: 0
+      l_pinky: 0
+      l_thumb: 0
+      headTiltDeg: 5
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.25
+      palmDirRight: 5
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.25, y: 1.3, z: 0.4}
+      rightHandLocalEuler: {x: -90, y: 0, z: -10}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0
+      leftHandLocalPos: {x: -0.25, y: 1.3, z: 0.4}
+      leftHandLocalEuler: {x: -90, y: 0, z: 10}
+      l_idx: 0
+      l_mid: 0
+      l_ring: 0
+      l_pinky: 0
+      l_thumb: 0
+      headTiltDeg: 5
+      torsoLeanDeg: 0
+      holdSeconds: 0.08
+      transitionSeconds: 0.15
+      palmDirRight: 5
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.22, y: 1.3, z: 0.4}
+      rightHandLocalEuler: {x: -90, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0
+      leftHandLocalPos: {x: -0.22, y: 1.3, z: 0.4}
+      leftHandLocalEuler: {x: -90, y: 0, z: 0}
+      l_idx: 0
+      l_mid: 0
+      l_ring: 0
+      l_pinky: 0
+      l_thumb: 0
+      headTiltDeg: 5
+      torsoLeanDeg: 0
+      holdSeconds: 0.08
+      transitionSeconds: 0.15
+      palmDirRight: 5
+      palmDirLeft: 0
+    playbackSpeed: 1
+    emotion: 3
+    notes: Open 5-hands palms up, small side-shake.
+  - word: where
+    frames:
+    - rightHandLocalPos: {x: 0.15, y: 1.5, z: 0.4}
+      rightHandLocalEuler: {x: 0, y: -10, z: 0}
+      r_idx: 0
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 5
+      torsoLeanDeg: 0
+      holdSeconds: 0.06
+      transitionSeconds: 0.2
+      palmDirRight: 1
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.2, y: 1.5, z: 0.4}
+      rightHandLocalEuler: {x: 0, y: 20, z: 0}
+      r_idx: 0
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 5
+      torsoLeanDeg: 0
+      holdSeconds: 0.05
+      transitionSeconds: 0.1
+      palmDirRight: 1
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.1, y: 1.5, z: 0.4}
+      rightHandLocalEuler: {x: 0, y: -20, z: 0}
+      r_idx: 0
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 5
+      torsoLeanDeg: 0
+      holdSeconds: 0.05
+      transitionSeconds: 0.1
+      palmDirRight: 1
+      palmDirLeft: 0
+    playbackSpeed: 1
+    emotion: 3
+    notes: Index up, wag side-to-side.
+  - word: when
+    frames:
+    - rightHandLocalPos: {x: 0.1, y: 1.4, z: 0.45}
+      rightHandLocalEuler: {x: 0, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.05, y: 1.4, z: 0.4}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.5
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.08
+      transitionSeconds: 0.25
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.1, y: 1.5, z: 0.55}
+      rightHandLocalEuler: {x: 0, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.05, y: 1.4, z: 0.4}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.5
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.08
+      transitionSeconds: 0.2
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: -0.05, y: 1.42, z: 0.42}
+      rightHandLocalEuler: {x: 0, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.05, y: 1.4, z: 0.4}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.5
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.08
+      transitionSeconds: 0.2
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 0.9
+    emotion: 3
+    notes: Right index circles around stationary left index, then taps.
+  - word: why
+    frames:
+    - rightHandLocalPos: {x: 0.18, y: 1.6, z: 0.25}
+      rightHandLocalEuler: {x: 0, y: -30, z: 0}
+      r_idx: 0.85
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0
+      r_thumb: 0
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 10
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.25
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.22, y: 1.5, z: 0.35}
+      rightHandLocalEuler: {x: 0, y: -10, z: 0}
+      r_idx: 0.85
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0
+      r_thumb: 0
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 10
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.2
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 1
+    emotion: 3
+    notes: Y-handshape taps temple area.
+  - word: how
+    frames:
+    - rightHandLocalPos: {x: 0.1, y: 1.3, z: 0.4}
+      rightHandLocalEuler: {x: 0, y: 0, z: -30}
+      r_idx: 0.4
+      r_mid: 0.4
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.1, y: 1.3, z: 0.4}
+      leftHandLocalEuler: {x: 0, y: 0, z: 30}
+      l_idx: 0.4
+      l_mid: 0.4
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.5
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.3
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.1, y: 1.3, z: 0.4}
+      rightHandLocalEuler: {x: -90, y: 0, z: -30}
+      r_idx: 0.4
+      r_mid: 0.4
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.1, y: 1.3, z: 0.4}
+      leftHandLocalEuler: {x: -90, y: 0, z: 30}
+      l_idx: 0.4
+      l_mid: 0.4
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.5
+      headTiltDeg: 5
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.3
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 0.9
+    emotion: 3
+    notes: Both bent-V hands roll from palm-down to palm-up.
+  - word: vr
+    frames:
+    - rightHandLocalPos: {x: 0.2, y: 1.55, z: 0.3}
+      rightHandLocalEuler: {x: 0, y: -20, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.25
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.2, y: 1.55, z: 0.3}
+      rightHandLocalEuler: {x: 0, y: -20, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.2
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 1
+    emotion: 0
+    notes: V handshape near face (approx for VR letters).
+  - word: model
+    frames:
+    - rightHandLocalPos: {x: 0.15, y: 1.4, z: 0.45}
+      rightHandLocalEuler: {x: 0, y: 0, z: 0}
+      r_idx: 0.7
+      r_mid: 0.7
+      r_ring: 0.7
+      r_pinky: 0.85
+      r_thumb: 0.45
+      leftHandLocalPos: {x: -0.15, y: 1.4, z: 0.45}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.7
+      l_mid: 0.7
+      l_ring: 0.7
+      l_pinky: 0.85
+      l_thumb: 0.45
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.3
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.15, y: 1.2, z: 0.45}
+      rightHandLocalEuler: {x: 0, y: 0, z: 0}
+      r_idx: 0.7
+      r_mid: 0.7
+      r_ring: 0.7
+      r_pinky: 0.85
+      r_thumb: 0.45
+      leftHandLocalPos: {x: -0.15, y: 1.2, z: 0.45}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.7
+      l_mid: 0.7
+      l_ring: 0.7
+      l_pinky: 0.85
+      l_thumb: 0.45
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.25
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 0.9
+    emotion: 0
+    notes: Both M-hands frame a small object.
+  - word: simulation
+    frames:
+    - rightHandLocalPos: {x: 0.15, y: 1.3, z: 0.4}
+      rightHandLocalEuler: {x: 0, y: 0, z: 0}
+      r_idx: 0.85
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.15, y: 1.3, z: 0.4}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.08
+      transitionSeconds: 0.2
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.15, y: 1.3, z: 0.4}
+      rightHandLocalEuler: {x: 0, y: 0, z: 45}
+      r_idx: 0.85
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.15, y: 1.3, z: 0.4}
+      leftHandLocalEuler: {x: 0, y: 0, z: -45}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.08
+      transitionSeconds: 0.15
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.15, y: 1.3, z: 0.4}
+      rightHandLocalEuler: {x: 0, y: 0, z: -45}
+      r_idx: 0.85
+      r_mid: 0.85
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.15, y: 1.3, z: 0.4}
+      leftHandLocalEuler: {x: 0, y: 0, z: 45}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.08
+      transitionSeconds: 0.15
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 1
+    emotion: 0
+    notes: Both S-fists rotate alternately like gears.
+  - word: see
+    frames:
+    - rightHandLocalPos: {x: 0.1, y: 1.65, z: 0.2}
+      rightHandLocalEuler: {x: 0, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.08
+      transitionSeconds: 0.2
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.2, y: 1.55, z: 0.5}
+      rightHandLocalEuler: {x: 0, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0.85
+      r_pinky: 0.85
+      r_thumb: 0.5
+      leftHandLocalPos: {x: -0.16, y: 0.95, z: 0.12}
+      leftHandLocalEuler: {x: 0, y: 0, z: 0}
+      l_idx: 0.85
+      l_mid: 0.85
+      l_ring: 0.85
+      l_pinky: 0.85
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.25
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 1
+    emotion: 0
+    notes: V-hand sweeps from eyes forward.
+  - word: learn
+    frames:
+    - rightHandLocalPos: {x: 0, y: 1.25, z: 0.4}
+      rightHandLocalEuler: {x: -60, y: 0, z: 0}
+      r_idx: 0
+      r_mid: 0
+      r_ring: 0
+      r_pinky: 0
+      r_thumb: 0
+      leftHandLocalPos: {x: -0.05, y: 1.2, z: 0.4}
+      leftHandLocalEuler: {x: -90, y: 0, z: 0}
+      l_idx: 0
+      l_mid: 0
+      l_ring: 0
+      l_pinky: 0
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.1
+      transitionSeconds: 0.3
+      palmDirRight: 0
+      palmDirLeft: 0
+    - rightHandLocalPos: {x: 0.05, y: 1.65, z: 0.2}
+      rightHandLocalEuler: {x: -30, y: 0, z: 0}
+      r_idx: 0.55
+      r_mid: 0.55
+      r_ring: 0.55
+      r_pinky: 0.55
+      r_thumb: 0.55
+      leftHandLocalPos: {x: -0.05, y: 1.2, z: 0.4}
+      leftHandLocalEuler: {x: -90, y: 0, z: 0}
+      l_idx: 0
+      l_mid: 0
+      l_ring: 0
+      l_pinky: 0
+      l_thumb: 0.55
+      headTiltDeg: 0
+      torsoLeanDeg: 0
+      holdSeconds: 0.12
+      transitionSeconds: 0.3
+      palmDirRight: 0
+      palmDirLeft: 0
+    playbackSpeed: 0.9
+    emotion: 0
+    notes: Right open hand from left palm to forehead (taking knowledge in).
+  aliases:
+  - from: running
+    to: go
+  - from: ran
+    to: go
+  - from: going
+    to: go
+  - from: goes
+    to: go
+  - from: coming
+    to: come
+  - from: came
+    to: come
+  - from: comes
+    to: come
+  - from: wanted
+    to: want
+  - from: wants
+    to: want
+  - from: wanting
+    to: want
+  - from: needed
+    to: need
+  - from: needs
+    to: need
+  - from: having
+    to: have
+  - from: had
+    to: have
+  - from: has
+    to: have
+  - from: helping
+    to: help
+  - from: helped
+    to: help
+  - from: helps
+    to: help
+  - from: stopped
+    to: stop
+  - from: stops
+    to: stop
+  - from: stopping
+    to: stop
+  - from: ate
+    to: eat
+  - from: eaten
+    to: eat
+  - from: eating
+    to: eat
+  - from: drank
+    to: drink
+  - from: drinking
+    to: drink
+  - from: drinks
+    to: drink
+  - from: working
+    to: work
+  - from: worked
+    to: work
+  - from: works
+    to: work
+  - from: seeing
+    to: see
+  - from: saw
+    to: see
+  - from: seen
+    to: see
+  - from: learning
+    to: learn
+  - from: learned
+    to: learn
+  - from: my
+    to: i
+  - from: mine
+    to: i
+  - from: your
+    to: you
+  - from: yours
+    to: you
+  - from: our
+    to: we
+  - from: us
+    to: we
+  - from: ours
+    to: we
+  - from: them
+    to: they
+  - from: their
+    to: they
+  - from: its
+    to: it
+  - from: thanks
+    to: thank-you
+  - from: thank
+    to: thank-you
+  - from: ty
+    to: thank-you
+  - from: hey
+    to: hi
+  - from: bye-bye
+    to: bye
+  - from: goodbye
+    to: bye
+  - from: yeah
+    to: yes
+  - from: yep
+    to: yes
+  - from: yup
+    to: yes
+  - from: nope
+    to: no
+  - from: nah
+    to: no
+  - from: okay
+    to: ok
+  - from: alright
+    to: ok
+  - from: great
+    to: good
+  - from: nice
+    to: good
+  - from: fine
+    to: good
+  - from: awful
+    to: bad
+  - from: terrible
+    to: bad
+  - from: joyful
+    to: happy
+  - from: glad
+    to: happy
+  - from: unhappy
+    to: sad
+  - from: exhausted
+    to: tired
+  - from: ill
+    to: sick
+  - from: rooms
+    to: room
+  - from: friends
+    to: friend
+  - from: people
+    to: person
+  - from: persons
+    to: person
+  - from: named
+    to: name
+  - from: names
+    to: name
+  - from: models
+    to: model
+  - from: sim
+    to: simulation
+  - from: simulate
+    to: simulation
+  - from: virtual-reality
+    to: vr
+  stoplist:
+  - the
+  - a
+  - an
+  - is
+  - are
+  - was
+  - were
+  - be
+  - been
+  - being
+  - am
+  - do
+  - does
+  - did
+  - done
+  - of
+  - to
+  - in
+  - on
+  - at
+  - for
+  - with
+  - by
+  - um
+  - uh
+  - like
+  - you-know
+  - well
+  - this
+  - that
+  - these
+  - those
+  - and
+  - or
+  - but
+  - so

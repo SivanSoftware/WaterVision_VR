@@ -1,0 +1,115 @@
+# ==========================================================
+#  WaterVision VR — .gitignore
+#  Unity 6 (6000.3.10f1) project
+# ==========================================================
+
+# ----- Unity generated folders -----
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
+[Mm]emoryCaptures/
+
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+!/[Aa]ssets/**/*.meta
+
+# Recovery / backup junk
+[Aa]ssets/_Recovery/
+[Aa]ssets/_Recovery.meta
+
+# ----- Visual Studio / Rider / IDE cache -----
+.vs/
+.idea/
+.gradle/
+.consulo/
+ExportedObj/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# ----- OS files -----
+.DS_Store
+.DS_Store*
+Thumbs.db
+Desktop.ini
+
+# ----- Builds / packages / archives (keep repo lean) -----
+*.apk
+*.aab
+*.unitypackage
+*.zip
+sysinfo.txt
+crashlytics-build.properties
+
+# Unity burst debug / backup folders
+*_BackUpThisFolder_ButDontShipItWithYourGame/
+*_BurstDebugInformation_DoNotShip/
+
+# ----- Standalone server binary (not source) -----
+/webserver.exe
+/ignore.conf
+
+# ==========================================================
+#  Large third-party asset packs & SDK samples
+#  (re-import from the Unity Asset Store / package manager)
+#  Excluded to stay under GitHub's 100MB-per-file limit.
+# ==========================================================
+[Aa]ssets/Oculus/
+[Aa]ssets/Oculus.meta
+[Aa]ssets/MetaXR/
+[Aa]ssets/MetaXR.meta
+[Aa]ssets/Mixamo/
+[Aa]ssets/Mixamo.meta
+[Aa]ssets/Phoenix3D/
+[Aa]ssets/Phoenix3D.meta
+[Aa]ssets/Phoenix3D_dst/
+[Aa]ssets/Phoenix3D_dst.meta
+[Aa]ssets/SyntyStudios/
+[Aa]ssets/SyntyStudios.meta
+[Aa]ssets/NamuFX/
+[Aa]ssets/NamuFX.meta
+[Aa]ssets/EffectExamples/
+[Aa]ssets/EffectExamples.meta
+[Aa]ssets/StarterAssets/
+[Aa]ssets/StarterAssets.meta
+[Aa]ssets/Samples/
+[Aa]ssets/Samples.meta
+[Aa]ssets/VRMPAssets/
+[Aa]ssets/VRMPAssets.meta
+[Aa]ssets/ALP_Assets/
+[Aa]ssets/ALP_Assets.meta
+[Aa]ssets/Barking_Dog/
+[Aa]ssets/Barking_Dog.meta
+[Aa]ssets/01_AssetStore/
+[Aa]ssets/01_AssetStore.meta
+[Aa]ssets/nappin/
+[Aa]ssets/nappin.meta
+[Aa]ssets/nappin_dst/
+[Aa]ssets/nappin_dst.meta
+[Aa]ssets/IgniteCoders/
+[Aa]ssets/IgniteCoders.meta
+[Aa]ssets/Ready Player Me/
+[Aa]ssets/Ready Player Me.meta
+
+# ----- Large ML / model files (speech-to-text, etc.) -----
+*.onnx
+*.bin
+[Aa]ssets/StreamingAssets/Whisper/
+[Aa]ssets/StreamingAssets/Whisper.meta
+
+# ----- Other heavy binary media that blow past GitHub limits -----
+*.fbx.meta.bak

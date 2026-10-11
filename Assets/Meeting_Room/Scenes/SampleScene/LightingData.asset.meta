@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2ee4756c2d3befa4c8d29b3bf8075dcd
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 112000000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 254953
+  packageName: Realistic Meeting Room
+  packageVersion: 1.0
+  assetPath: Assets/Meeting_Room/Scenes/SampleScene/LightingData.asset
+  uploadId: 666957

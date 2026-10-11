@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b8ad93715e6289141a3f7c00fce62553
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 254953
+  packageName: Realistic Meeting Room
+  packageVersion: 1.0
+  assetPath: Assets/Meeting_Room/Textures/SkyBox/SkyBox.mat
+  uploadId: 666957
