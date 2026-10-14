@@ -83,9 +83,11 @@ WaterVision_VR_Project/
 
 ---
 
-## ⚠️ Assets Not Included
+## 📦 What's in this repository
 
-To keep the repository clean and under GitHub's 100MB-per-file limit, **large third-party asset packs and ML models are not committed** and must be imported separately:
+✅ **The complete source code is here** — all C# scripts, scenes, prefabs, UI, materials, and project settings that make up WaterVision VR are version-controlled in this repository. The project's full code base stands on its own in Git.
+
+⚠️ **Only the heavy third-party assets are excluded**, because they exceed Git/GitHub's size limits (100MB per file) and are not part of our own code. They are not committed and must be imported separately:
 
 - **Asset Store / SDK packages:** Oculus / Meta XR, Mixamo, Synty Studios, NamuFX (Water Effects), Phoenix3D, Ready Player Me, Starter Assets.
 - **AI models:** Speech-to-Text model files (`.onnx` / `.bin`) — place them back under `Assets/StreamingAssets/Whisper/` and `Assets/Netanel Scripts/STT/`.
