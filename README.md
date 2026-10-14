@@ -101,4 +101,4 @@ WaterVision_VR_Project/
 
 Final Project 2026 · WaterVision VR
 
-**Sivan Lasri · Elinor Saror · Netanel Shen · Omer Peleg · Shalev Turjeman**
+**Sivan Lasri · Elinor Srur · Netanel Shen · Omer Peleg · Shalev Turgeman**
