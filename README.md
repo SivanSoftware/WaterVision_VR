@@ -3,6 +3,7 @@
 > **A virtual-reality platform for professional meetings in the water sector** - real-time transcription, 3D models, and remote collaboration.
 
 Final project · Software Engineering · 2026
+
 🌐 **Live project site:** [watervision-vr.web.app](https://watervision-vr.web.app/)
 
 ---
